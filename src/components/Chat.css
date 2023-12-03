@@ -1,0 +1,33 @@
+.img img {
+    margin: 2rem;
+    padding-left: 3rem;
+    cursor: pointer;
+    height: 80%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .img img {
+        /* margin: 1rem; */
+        padding-left: 2rem;
+    }
+  }
+  
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  .img{
+    width:100%;
+    height: 100vh;
+  }
+  
+  body{
+    /* background:#090935; */
+    background: black;
+  }
+  
